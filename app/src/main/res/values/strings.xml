@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="restaurant_location">Адрес ресторана</string>
+    <string name="catalogue">Каталог</string>
+    <string name="contacts">Контакты</string>
+    <string name="dish_picture">Изображение блюда</string>
+    <string name="address">Уфа, ул. Комсомольская, 12</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_icon_desc">Иконка категории</string>
+    <string name="phone">+74951234578</string>
+</resources>

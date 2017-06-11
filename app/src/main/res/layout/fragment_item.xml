@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            view:srcCompat="@android:drawable/ic_menu_gallery"
+            android:id="@+id/dishPic"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="8dp"
+            android:contentDescription="@string/dish_picture" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dishName"
+        tools:text="Цыпленок барбекю 30см"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_below="@+id/dishPic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        tools:text="30г"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/weight_card"
+        android:textAlignment="viewStart"
+        android:gravity="start"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/dishName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            tools:text="Ветчина, курица жареная, шампиньоны свежие, перец болгарский, лук зеленый, соус барбекю. К пицце подается фирменный томатный соус."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"
+            android:gravity="end"
+        android:layout_marginTop="19dp"
+        android:padding="10dp"
+        android:layout_below="@+id/weight_card"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            tools:text="300.00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dish_price"
+            android:gravity="end"
+            android:layout_marginRight="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_above="@+id/description"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</ScrollView>

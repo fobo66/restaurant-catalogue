@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        tools:text="Пицца"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/category_name"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/ic_local_pizza_black_48dp"
+        android:drawableStart="@drawable/ic_local_pizza_black_48dp"
+        android:padding="12dp"
+    android:textStyle="normal|bold" />
